@@ -1,0 +1,72 @@
+/* Add styling for your page here */
+
+.App {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 229, 157);
+}
+
+.left {
+    display:flex;
+}
+
+.right{
+    display:flex;
+    flex-direction: column;
+}
+
+.Items {
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 60px;
+    justify-content: center;
+}
+
+.child_item{
+    background-color: rgb(112, 136, 204);
+}
+
+.Name{
+    text-align: center;
+}
+
+.picture{
+    height: 300px;
+    width: auto;
+
+}
+
+.price{
+    text-align: center;
+
+}
+
+.Description{
+    text-align: center;
+
+}
+
+.Button{
+
+    background-color: aliceblue;
+    border: 1px solid rgb(173, 210, 243);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+
+.cart_price{
+
+}
+
+.cart_items{
+    display:flex;
+    flex-direction: column;
+}
+
+.cart_count{
+
+}
